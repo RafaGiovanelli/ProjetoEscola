@@ -21,8 +21,6 @@ namespace Arquivo
             //Microsoft.Extensions.Configuration.Json
             #endregion
 
-            //teste do git
-
             #region codigo para acessar o arquivo de configuração
             var builder = new ConfigurationBuilder()
                             .SetBasePath(Directory.GetCurrentDirectory())
