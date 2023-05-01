@@ -84,7 +84,7 @@ public class Program
             //Contador de operações
             listaOperacoes++;
 
-            Console.WriteLine("\nCadastro concluido. Deseja realizar uma nova ação?\n");
+            Console.WriteLine("\nAção efetuada. Deseja realizar uma nova ação?\n");
             Console.WriteLine("1 - Sim | 0 - Não \n");
             var cadastradoTotal = Convert.ToInt32(Console.ReadLine());
 
